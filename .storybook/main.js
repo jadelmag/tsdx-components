@@ -1,7 +1,9 @@
 module.exports = {
   stories: ['../stories/**/*.stories.@(ts|tsx|js|jsx)'],
   addons: [
+    '@storybook/addon-actions',
     '@storybook/addon-links',
+    '@storybook/addon-docs',
     '@storybook/addon-essentials',
     {
       name: 'storybook-addon-sass-postcss',

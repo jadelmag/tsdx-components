@@ -1,7 +1,7 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { Button } from '../src/components/Button';
-import { ButtonProps } from '../src/interfaces/ButtonProps';
+import { Button } from '../src/components/Button/Button';
+import { ButtonProps } from '../src/interfaces/Button.interface';
 
 const meta: Meta = {
   title: 'Welcome',
